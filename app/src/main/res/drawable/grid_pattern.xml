@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="40dp"
+    android:height="40dp"
+    android:viewportWidth="40"
+    android:viewportHeight="40">
+
+    <!-- Horizontal line -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#12FF0000"
+        android:strokeWidth="0.5"
+        android:pathData="M0,40 L40,40" />
+
+    <!-- Vertical line -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#12FF0000"
+        android:strokeWidth="0.5"
+        android:pathData="M40,0 L40,40" />
+
+    <!-- Intersection dot (cyber node) -->
+    <path
+        android:fillColor="#22FF0000"
+        android:pathData="M38,38 L42,38 L42,42 L38,42 Z" />
+
+</vector>

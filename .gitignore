@@ -1,0 +1,96 @@
+# ============================================
+# Android / Gradle .gitignore
+# ============================================
+
+# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+release/
+
+# Gradle files
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local configuration file (SDK path, etc.)
+local.properties
+
+# Proguard/R8
+*.apk
+*.aab
+*.ap_
+*.map
+app/proguard-rules.pro.bak
+
+# Log Files
+*.log
+*.log.*
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+*.hprof
+captures/
+.navigation/
+.DS_Store
+Thumbs.db
+
+# Kotlin
+.kotlin/
+
+# Signing — NEVER commit
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+
+# Environment / secrets
+.env
+.env.*
+secrets.properties
+
+# Native build
+.externalNativeBuild/
+.cxx/
+*.so.debug
+
+# OS generated
+*.swp
+*~
+*.orig
+*.rej
+
+# Node (if you ever add tooling)
+node_modules/
+
+# Gradle caches
+.gradletasknamecache
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+# Android Studio captures
+captures/
+
+# Test reports
+test-output/
+test-results/
+
+# Google Play Console exports (keep out of repo)
+*.pepk
+*.enc

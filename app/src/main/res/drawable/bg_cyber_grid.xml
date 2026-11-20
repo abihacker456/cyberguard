@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Dark background -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FF0A0A0A" />
+        </shape>
+    </item>
+    <!-- Grid lines (dashed) -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" />
+            <stroke
+                android:width="0.5dp"
+                android:color="#33FF0000"
+                android:dashWidth="2dp"
+                android:dashGap="2dp" />
+        </shape>
+    </item>
+    <!-- Top red glow strip -->
+    <item android:gravity="top">
+        <shape android:shape="rectangle">
+            <solid android:color="#44FF0000" />
+            <size android:height="3dp" />
+        </shape>
+    </item>
+    <!-- Bottom red glow strip -->
+    <item android:gravity="bottom">
+        <shape android:shape="rectangle">
+            <solid android:color="#44FF0000" />
+            <size android:height="3dp" />
+        </shape>
+    </item>
+</layer-list>

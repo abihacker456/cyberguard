@@ -1,0 +1,54 @@
+# CyberGuard YARA-style rules
+# Format: rule_name : condition(string1,string2,...)
+# Condition: "any" means match if any string is found; "all" means all strings must be found.
+
+rule cookie_stealer : any
+cookies
+Login Data
+Web Data
+CryptUnprotectData
+sqlite
+NSCookies
+SessionStore
+
+rule banking_overlay : any
+overlay
+fake_login
+TYPE_APPLICATION_OVERLAY
+com.android.systemui
+phishing
+
+rule ransomware : any
+encrypt
+ransom
+AES
+Cipher
+getExternalStorageDirectory
+FileOutputStream
+vssadmin
+shadow
+
+rule keylogger : any
+onAccessibilityEvent
+getText
+logKey
+KEYCODE
+dispatchKeyEvent
+inputType
+
+rule dropper : any
+BITS
+certutil
+urlcache
+DownloadManager
+URLDownloadToFile
+installPackage
+java.net.URL
+
+rule hidden_app : all
+no_launcher
+service_only
+
+rule repackaged : all
+debuggable
+dangerous_permissions

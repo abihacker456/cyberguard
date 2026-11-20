@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_cyber_grid">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/tv_quiz_counter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFAA00"
+            android:textSize="13sp"
+            android:fontFamily="monospace"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/tv_quiz_scenario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:fontFamily="monospace"
+            android:padding="16dp"
+            android:background="@drawable/threat_card_bg"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/btn_answer_1"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="8dp"/>
+        <Button
+            android:id="@+id/btn_answer_2"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="8dp"/>
+        <Button
+            android:id="@+id/btn_answer_3"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="8dp"/>
+        <Button
+            android:id="@+id/btn_answer_4"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tv_quiz_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#DDDDDD"
+            android:textSize="14sp"
+            android:fontFamily="monospace"
+            android:padding="16dp"
+            android:background="@drawable/threat_card_bg"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/btn_quiz_next"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="@string/quiz_next"
+            android:textAllCaps="false"
+            android:backgroundTint="#FF0000"
+            android:textColor="@android:color/black"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:visibility="gone"/>
+    </LinearLayout>
+</ScrollView>

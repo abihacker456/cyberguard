@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App identity -->
+    <string name="app_name">CyberGuard Academy</string>
+    <string name="app_title">CYBERGUARD ACADEMY</string>
+    <string name="tag_educational">EDUCATIONAL</string>
+    <string name="lab_ready">LAB READY · LEARNING MODE</string>
+
+    <!-- Dashboard -->
+    <string name="progress_initial">0 / 7 LESSONS COMPLETED</string>
+    <string name="progress_summary">%1$d / %2$d LESSONS COMPLETED</string>
+    <string name="action_open_apk_lab">ANALYZE A SAMPLE APK</string>
+    <string name="action_open_quiz">Phishing Quiz</string>
+    <string name="action_open_playground">YARA Playground</string>
+    <string name="action_open_permissions">Permissions</string>
+    <string name="action_open_encyclopedia">Encyclopedia</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title">Welcome to CyberGuard Academy</string>
+    <string name="onboarding_subtitle">Learn how cyber threats work — from malware families to APK analysis — in a hands-on, offline lab.</string>
+    <string name="onboarding_disclaimer">⚠ IMPORTANT\n\nCyberGuard Academy is an educational app. It does NOT scan, protect, or clean your device. Any analysis you see is for learning purposes only.</string>
+    <string name="onboarding_features">• Threat encyclopedia\n• APK analysis lab\n• Pattern rule playground\n• Phishing quiz\n• Progress tracking</string>
+    <string name="onboarding_cta">Start Learning</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings &amp; About</string>
+    <string name="action_reset_progress">Reset Learning Progress</string>
+    <string name="action_contact_dev">Contact the Developer</string>
+    <string name="action_privacy_policy">Privacy Policy</string>
+    <string name="reset_title">Reset progress?</string>
+    <string name="reset_message">This will clear completed lessons and quiz scores. It cannot be undone.</string>
+    <string name="reset_confirm">Reset</string>
+    <string name="privacy_title">Privacy Policy</string>
+    <string name="privacy_body">CyberGuard Academy collects no personal data.\n\n• No accounts\n• No analytics\n• No network access\n• APK analysis happens entirely on your device and is deleted after the session ends\n\nContact: endaleabinet67@gmail.com</string>
+    <string name="about_dev_heading">ABOUT THE DEVELOPER</string>
+    <string name="about_dev_name">Abinet Endale</string>
+    <string name="dev_email">endaleabinet67@gmail.com</string>
+    <string name="settings_disclaimer">CyberGuard Academy does not scan or protect your device. Educational use only.</string>
+
+    <!-- APK Lab -->
+    <string name="apk_lab_result_title">APK Analysis Lab</string>
+    <string name="apk_lab_analyzing">Analyzing sample…</string>
+    <string name="apk_lab_no_file">No APK selected.</string>
+    <string name="apk_lab_copy_failed">Could not read the selected file.</string>
+    <string name="apk_lab_no_signals">No pattern signals detected.\n\nThis does NOT mean the app is safe — this lab only demonstrates simple pattern-based detection and will miss most real threats.</string>
+    <string name="apk_lab_signals_header">Pattern signals detected:</string>
+    <string name="apk_lab_severity_label">risk indicator:</string>
+    <string name="apk_lab_disclaimer">Remember: these are educational heuristics. A “match” here is not proof of malice, and a “clean” result is not proof of safety.</string>
+    <string name="apk_lab_error">Analysis failed.</string>
+
+    <!-- Lesson detail -->
+    <string name="lesson_mark_complete">Mark as Completed</string>
+    <string name="lesson_complete_toast">Lesson marked complete</string>
+
+    <!-- Quiz -->
+    <string name="quiz_question_counter">Question %1$d of %2$d</string>
+    <string name="quiz_next">Next</string>
+    <string name="quiz_see_result">See Result</string>
+    <string name="quiz_correct">✓ Correct</string>
+    <string name="quiz_wrong">✗ Not quite</string>
+    <string name="quiz_result_title">Quiz Complete</string>
+    <string name="quiz_result_score">You scored %1$d / %2$d</string>
+    <string name="quiz_result_message">Regular practice with these scenarios builds lasting instinct. Try again to review the explanations.</string>
+    <string name="quiz_back_to_dashboard">Back to Dashboard</string>
+    <string name="quiz_try_again">Try Again</string>
+
+    <!-- YARA Playground -->
+    <string name="yara_playground_title">YARA Rule Playground</string>
+    <string name="yara_select_rule">Select a rule</string>
+    <string name="yara_sample_label">Sample text</string>
+    <string name="yara_sample_hint">Paste or type text to run the rule against</string>
+    <string name="yara_run_button">Run Rule</string>
+    <string name="yara_match_result">MATCH — rule “%1$s”\n\nMatched strings:\n%2$s</string>
+    <string name="yara_no_match_result">No match. The rule’s condition was not satisfied by the sample text.</string>
+    <string name="yara_explanation">This playground runs simplified, YARA-inspired rules. A rule uses a set of strings and a condition (any/all). Real YARA is far more expressive — it uses hex patterns, wildcards, and boolean logic — but the core idea is the same: pattern matching against a file.</string>
+
+    <!-- Permissions -->
+    <string name="permissions_title">Dangerous Permissions</string>
+    <string name="permissions_level_normal">NORMAL</string>
+    <string name="permissions_level_dangerous">DANGEROUS</string>
+    <string name="permissions_level_special">SPECIAL</string>
+
+    <!-- Encyclopedia -->
+    <string name="encyclopedia_title">Threat Encyclopedia</string>
+    <string name="encyclopedia_indicators">INDICATORS</string>
+    <string name="encyclopedia_defense">DEFENSE</string>
+
+</resources>
