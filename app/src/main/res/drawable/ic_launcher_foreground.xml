@@ -1,10 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="108dp"
     android:height="108dp"
     android:viewportWidth="108"
-    android:viewportHeight="108"
-    android:tint="#00BFA5">
+    android:viewportHeight="108">
+
+    <!-- Base Shield (Dark fill covers the grid behind it, Red outline) -->
     <path
-        android:fillColor="@android:color/white"
-        android:pathData="M54,20L24,30v22c0,18.5 12.8,35.8 30,40 17.2,-4.2 30,-21.5 30,-40V30L54,20z" />
+        android:fillColor="#0A0A0A"
+        android:strokeColor="#FF3333"
+        android:strokeWidth="3"
+        android:pathData="M54,22 L26,32 v20 c0,16.5 11.5,31.5 28,35.5 c16.5,-4 28,-19 28,-35.5 V32 L54,22 Z" />
+
+    <!-- Graduation Cap Top (Diamond) -->
+    <path
+        android:fillColor="#FF3333"
+        android:pathData="M54,38 L32,50 L54,62 L76,50 Z" />
+
+    <!-- Graduation Cap Base (Bottom band) -->
+    <path
+        android:fillColor="#FF3333"
+        android:pathData="M42,54 v6 c0,2.5 5,4.5 12,4.5 c7,0 12,-2 12,-4.5 v-6 Z" />
+
+    <!-- Tassel String -->
+    <path
+        android:strokeColor="#FF3333"
+        android:strokeWidth="2"
+        android:pathData="M76,50 L76,58" />
+
+    <!-- Tassel End -->
+    <path
+        android:fillColor="#FF3333"
+        android:pathData="M74,58 L78,58 L76,62 Z" />
+
 </vector>
