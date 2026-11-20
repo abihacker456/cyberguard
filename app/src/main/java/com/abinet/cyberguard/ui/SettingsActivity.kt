@@ -40,6 +40,16 @@ class SettingsActivity : AppCompatActivity() {
         }
 
         findViewById<Button>(R.id.btn_privacy_policy).setOnClickListener {
+            openPrivacyPolicy()
+        }
+    }
+    private fun openPrivacyPolicy() {
+        val uri = Uri.parse(getString(R.string.privacy_url))
+        val intent = Intent(Intent.ACTION_VIEW, uri)
+        try {
+            startActivity(intent)
+        } catch (_: Exception) {
+            // No browser installed — fall back to showing the short policy inline
             AlertDialog.Builder(this)
                 .setTitle(R.string.privacy_title)
                 .setMessage(R.string.privacy_body)

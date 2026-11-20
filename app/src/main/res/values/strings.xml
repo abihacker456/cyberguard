@@ -34,6 +34,8 @@
     <string name="reset_confirm">Reset</string>
     <string name="privacy_title">Privacy Policy</string>
     <string name="privacy_body">CyberGuard Academy collects no personal data.\n\n• No accounts\n• No analytics\n• No network access\n• APK analysis happens entirely on your device and is deleted after the session ends\n\nContact: endaleabinet67@gmail.com</string>
+    <string name="privacy_url">https://abihacker456.github.io/cyberguard/privacy-policy.html</string>
+    <string name="privacy_open_failed">Could not open browser. Make sure an internet browser is installed.</string>
     <string name="about_dev_heading">ABOUT THE DEVELOPER</string>
     <string name="about_dev_name">Abinet Endale</string>
     <string name="dev_email">endaleabinet67@gmail.com</string>
